@@ -1,0 +1,106 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  touch-action: pan-y;
+}
+.title{
+  background: #d33a32;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title img{
+  width: 1.38rem;
+  height: 2.1rem;
+}
+.search{
+  width: 70%;
+  margin: 0 1rem;
+
+}
+.tabs{
+  display: 'flex';
+  height: '32rem';
+  background-color: '#fff';
+}
+.recommend{
+  width: 100%;
+  display: flex;
+  margin-top:1rem;
+  justify-content: space-around;
+  align-items: center; 
+}
+.recommend p{
+ text-align: center;
+}
+.songList{
+  margin:4% 0 0 0; 
+}
+.songList li{
+  display: block;
+}
+.songListUl{
+  display: flex;
+  flex-wrap: wrap;
+}
+.songListLi{
+  flex: 1;
+}
+.songListUl p{
+  color: #cccccc;
+
+}
+.recommendSong{
+  border-left: .2rem solid  #d33a32;
+  padding-left:1rem; 
+  margin-bottom:1rem; 
+}
+.MainSongImg{
+  width: 7rem;
+  height: 7rem;
+}
+.songListLi h5{
+  white-space:nowrap; 
+  text-overflow:ellipsis; 
+}
+.Mainfooter{
+  width: 100%;
+  opacity: .9;
+}
+.footerNav{
+  display: flex;
+  background: #d33a32;
+}
+.navOne{
+  flex: 1;
+  height: 4rem;
+  text-align: center;
+}
+.navImg{
+  width: 3.2rem;
+  height: 2.6rem;
+}
+.footerNav p{
+  color: #ffffff;
+}
+.p{
+  text-align: start;
+}
+.video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+}
+.videoImg{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left:6% 
+}
+.videoP{
+  display: inline-block;
+  width: 60%;
+  font-size: 1rem
+}

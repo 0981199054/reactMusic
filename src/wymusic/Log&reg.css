@@ -1,0 +1,43 @@
+.logBtn{
+  width: 80%;
+  margin: 1rem auto;
+}
+.repwd{
+ display: block;
+ width: 50%;
+ margin: 1rem auto;
+ text-align: center;
+}
+
+.footer{
+  margin-top:67%; 
+}
+.otherReg{
+  text-align: center;
+  margin-bottom:1rem; 
+}
+.line{
+  display: inline-block;  
+  width: 4rem;  
+  border-top: 1px solid  #ccc ;  
+  margin-bottom:5px;   
+  margin-left:10px;
+  height: 1px;  
+  background:#ccc;   
+
+}
+.logLogo{
+  display: flex;
+  justify-content: space-around;
+
+}
+img{
+  width: 3rem;
+  height: 3rem;
+}
+.logLogo p{
+  text-align: center;
+}
+.logLogo p {
+  margin: 0;
+}
